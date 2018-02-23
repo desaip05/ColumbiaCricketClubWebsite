@@ -9,13 +9,14 @@ module.exports = {
     filename: 'bundle.js',
   },
   resolve: {
+    modules: ["node_modules"],
     extensions: ['.js', '.jsx', '.json', '.css']
   },
   module : {
-    loaders : [
+    rules: [
       {
         test: /\.css$/,
-        loader: 'style-loader!css-loader'
+        use: [ 'style-loader', 'css-loader' ]
       },
       {
         test: /\.png$/,

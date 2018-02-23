@@ -86,6 +86,7 @@ body .section-content.section-image {
 .button, .body-wrapper input[type="submit"], .body-wrapper input[type="button"], .section-content.section-color-bg, .content-box.content-style4 h4 i, button.button-main, .body-wrapper .tags a:hover, .callout-box.callout-box2, .blog-search .blog-search-button, .top-title-wrapper, .testimonial-big,
 .content-style3:hover .content-style3-icon, table.table thead tr, .price-table .price-label-badge, .price-table .price-table-header, .section-subscribe .subscribe-button.icon-envelope-alt {
   background-color: #1F3244;
+  color: #ffffff;
 }
 
 .btn.btn-flat {
@@ -100,13 +101,26 @@ body .section-content.section-image {
   background-color: #1F3244;
 }
 
+.btn, input[type="cancel"], input[type="button"], button.btn, .btn-primary {
+  background-color: #444;
+}
+
 .btn:hover, input[type="submit"]:hover, input[type="button"]:hover, button.btn:hover, .btn-primary:hover {
   background-color: #1F3244;
 
 }
 
+.btn:hover, input[type="cancel"]:hover, input[type="button"]:hover, button.btn:hover, .btn-primary:hover {
+  background-color: #aaa;
+
+}
+
 .btn:focus, input[type="submit"]:focus, input[type="button"]:focus, button.btn:focus, .btn-primary:focus {
   background-color: #1F3244;
+}
+
+.btn:focus, input[type="cancel"]:focus, input[type="button"]:focus, button.btn:focus, .btn-primary:focus {
+  background-color: #aaa;
 }
 
 .blog-post-icon, .comments-list .children .comment:before, .portfolio-filter li a.portfolio-selected,

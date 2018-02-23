@@ -1923,7 +1923,7 @@ Breadcrumb
 /****************************
 Buttons
 ****************************/
-.btn, input[type="submit"], input[type="button"], button.btn, .btn-primary {
+.btn, input[type="submit"], input[type="cancel"], input[type="button"], button.btn, .btn-primary {
   display: inline-block;
   text-transform: uppercase;
   font-weight: 500;

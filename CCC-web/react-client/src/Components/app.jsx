@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import { browserHistory } from "react-router";
 import HomePage from "./pages/home.jsx";
 import Fixtures from "./pages/fixtures.jsx";
+import FixtureCalendar from "./pages/calendar.jsx";
 import Register from "./pages/register.jsx";
 import NavBar from "./headerComponent/navBar.jsx";
 import Footer from "./footerComponent/footer.jsx";
@@ -25,6 +26,7 @@ class App extends Component {
             </div>
             <Route exact path="/"  component={HomePage} />
             <Route path="/fixtures" component={Fixtures}/>
+            <Route path="/calendar" component={FixtureCalendar}/>
             <Route path="/register" component={Register}/>
           </div>
           <Footer />

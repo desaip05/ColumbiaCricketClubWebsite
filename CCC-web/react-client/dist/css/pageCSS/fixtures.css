@@ -5,3 +5,13 @@
 	padding-right: 5px;
 	padding-left: 5px;
 }
+
+.deleteRow{
+	text-align: center;
+	font-size:20px;
+	color:red;
+}
+
+.fixture-form{
+	min-width: 300px;
+}

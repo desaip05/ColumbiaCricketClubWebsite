@@ -55,7 +55,7 @@ class CarouselSlide extends Component {
       backgroundImage: "url(" + imgUrl + ")"
     };
     return divStyle;
-  };
+  }
   render() {
     return (
       <li
@@ -65,11 +65,14 @@ class CarouselSlide extends Component {
             : "carousel__slide"
         }
       >
-        <div class="item" style={this.getInlineStyle(this.props.slide.imageURL)}>
-         <div class="carousel-caption">
-                  <h3>{this.props.slide.content}</h3>
-                  <p>Lorem Ipsum</p>
-                </div>
+        <div
+          class="item"
+          style={this.getInlineStyle(this.props.slide.imageURL)}
+        >
+          <div class="carousel-caption">
+            <h3>{this.props.slide.content}</h3>
+            <p>Lorem Ipsum</p>
+          </div>
         </div>
       </li>
     );
