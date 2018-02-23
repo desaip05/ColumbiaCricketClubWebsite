@@ -1,0 +1,12 @@
+.calendarPage .rbc-calendar{
+	flex: 1;
+    min-height: 580px;
+}
+.calendarPage .row{
+	height: 100%;
+	margin-top: 10px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-right: 5px;
+	padding-left: 5px;
+}
