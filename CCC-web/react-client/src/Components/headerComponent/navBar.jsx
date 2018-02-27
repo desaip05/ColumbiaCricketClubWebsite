@@ -44,9 +44,7 @@ class NavBar extends Component {
                                     <Link to="/register"><span class="label-nav">Register</span></Link>
                                 </li>
                                 <li>
-                                    <a href="events.html">
-                                        <span class="label-nav">Events</span>
-                                    </a>
+                                    <Link to="/announcements"><span class="label-nav">Announcements</span></Link>
                                 </li>
                                 <li>
                                     <a href="products.html">

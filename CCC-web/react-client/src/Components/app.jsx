@@ -5,8 +5,12 @@ import HomePage from "./pages/home.jsx";
 import Fixtures from "./pages/fixtures.jsx";
 import FixtureCalendar from "./pages/calendar.jsx";
 import Register from "./pages/register.jsx";
+import Announcements from "./pages/announcements.jsx";
 import NavBar from "./headerComponent/navBar.jsx";
 import Footer from "./footerComponent/footer.jsx";
+/*css import*/
+// import 'bootstrap/dist/css/bootstrap.css';
+import 'font-awesome/css/font-awesome.css';
 
 class App extends Component {
   render() {
@@ -28,6 +32,7 @@ class App extends Component {
             <Route path="/fixtures" component={Fixtures}/>
             <Route path="/calendar" component={FixtureCalendar}/>
             <Route path="/register" component={Register}/>
+            <Route path="/announcements" component={Announcements}/>
           </div>
           <Footer />
         </div>

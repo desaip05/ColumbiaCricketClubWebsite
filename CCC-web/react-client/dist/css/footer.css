@@ -1,0 +1,76 @@
+/* Footer Area Colors */
+
+.footer .copyright {
+  border-color: #1F3244;
+}
+
+.flickr_badge_wrapper .flickr_badge_image img:hover {
+  border-color: #1F3244;
+}
+
+.foot1{
+  padding-bottom: 50px;
+  border-bottom: 1px solid #414141;
+}
+
+.foot2{
+  border-bottom: 1px solid #414141;
+}
+
+.foot2 h5{ 
+  text-align: center; 
+  color: #dedede;
+  margin - top: 0 pt; 
+}
+
+.foot2 ul{
+  display: table;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 0pt;
+  padding-bottom: 0pt;
+  padding-right: 0pt;
+}
+
+.foot2 ul li{
+  display: inline-block;
+  list-style-type: none;
+  margin-top: 0in;
+  margin-left: .208333333in;
+  margin-right: .208333333in;
+  margin-bottom: .9375pc;
+  float: left;
+  color: #848080;
+}
+
+
+.foot-social h5{ 
+  text-align: center; 
+  color: #dedede;
+  margin - top: 0 pt; 
+}
+
+.foot-social ul{
+  display: table;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 0pt;
+  padding-bottom: 0pt;
+  padding-right: 0pt;
+}
+
+.foot-social ul li{
+  display: inline-block;
+  list-style-type: none;
+  margin-top: 0in;
+  margin-left: .208333333in;
+  margin-right: .208333333in;
+  margin-bottom: .9375pc;
+  float: left;
+  color: #848080;
+}
+

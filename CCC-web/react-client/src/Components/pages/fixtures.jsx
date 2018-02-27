@@ -194,7 +194,7 @@ class Fixtures extends Component {
 		const showDelete = this.state.showDelete;
 		return (
 			<div class="fixturesPage">
-				<div className="row ng-scope">
+				<div className="row adminRow">
 					<button
 						className="button"
 						onClick={e => this.addFixture(e)}

@@ -1,0 +1,103 @@
+.announcementsPage{
+	/*height: 500px;*/
+	/*background: lightblue;*/
+}
+
+.adminRow{
+	margin: 20px 0 20px 0;
+}
+
+#posts {
+    position: relative;
+}
+
+.entry{
+	position: relative;
+    margin: 0 0 50px;
+}
+
+.events .entry{
+	margin-top: 20px;
+    padding: 20px;
+    background-color: #F9F9F9;
+    border-bottom: 3px solid #EEE;
+}
+
+.events .entry-date{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: rgba(0,0,0,.7);
+    color: #FFF;
+    text-shadow: 1px 1px 1px rgba(0,0,0,.2);
+    width: 60px;
+    height: 64px;
+    text-align: center;
+    padding-top: 7px;
+    font-size: 26px;
+    line-height: 1;
+}
+
+.events .entry-date span {
+    display: block;
+    font-size: 15px;
+    margin-top: 5px;
+}
+
+.entry-title h2 a {
+    color: #333;
+}
+
+#posts .entry-content {
+    margin-top: 30px;
+}
+
+.entry-content {
+    position: relative;
+}
+
+.events .entry-c {
+    padding: 5px 0;
+}
+
+#content p {
+    line-height: 1.8;
+}
+.entry-c {
+    position: relative;
+    overflow: hidden;
+}
+
+.float-right {
+    float: right!important;
+}
+
+.float-left {
+    float: left!important;
+}
+
+
+
+/*----------------------Editor--------------------*/
+.demo-wrapper {
+    width: 100% !important;
+    display: block !important;
+    margin-bottom: 25px !important;
+    height: 400px !important;
+}
+
+.demo-editor{
+    height: 275px !important;
+    border: 1px solid #F1F1F1 !important;
+    padding: 5px !important;
+    border-radius: 2px !important;
+}
+.editor-wrapper{
+	min-height: 50px;
+	border: 3px solid #EEE;
+}
+
+.announcement-title-form{
+	min-height: 50px;
+	border: 3px solid #EEE;	
+}

@@ -71,7 +71,6 @@ class CarouselSlide extends Component {
         >
           <div class="carousel-caption">
             <h3>{this.props.slide.content}</h3>
-            <p>Lorem Ipsum</p>
           </div>
         </div>
       </li>

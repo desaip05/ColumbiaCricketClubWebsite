@@ -71,7 +71,7 @@ class FixtureCalendar extends Component {
   }
 
   FixtureFormItem(props) {
-    console.log(props.formItems);
+    // console.log(props.formItems);
     const formItems = props.formItems;
     return (
       <div class="fixture-form">
