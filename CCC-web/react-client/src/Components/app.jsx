@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
-import { browserHistory } from "react-router";
 import HomePage from "./pages/home.jsx";
 import Fixtures from "./pages/fixtures.jsx";
 import FixtureCalendar from "./pages/calendar.jsx";
@@ -15,7 +14,7 @@ import 'font-awesome/css/font-awesome.css';
 class App extends Component {
   render() {
     return (
-      <Router>
+      <Router basename={'/ccc'}>
         <div id="wrapper" class="boxed">
           <NavBar />
           <div class="content-wrapper">
@@ -29,10 +28,10 @@ class App extends Component {
               </div>
             </div>
             <Route exact path="/"  component={HomePage} />
-            <Route path="/fixtures" component={Fixtures}/>
-            <Route path="/calendar" component={FixtureCalendar}/>
-            <Route path="/register" component={Register}/>
-            <Route path="/announcements" component={Announcements}/>
+            <Route exact path="/fixtures" component={Fixtures}/>
+            <Route exact path="/calendar" component={FixtureCalendar}/>
+            <Route exact path="/register" component={Register}/>
+            <Route exact path="/announcements" component={Announcements}/>
           </div>
           <Footer />
         </div>
